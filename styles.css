@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'Mexcellent';
+    src: url('fonts/mexcellent.otf') format('opentype');
+}
+
+/* Hace que el footer siempre esté al final */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1; /* Hace que el contenido ocupe el espacio disponible */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente */
+    align-items: center;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    padding: 20px 0;
+}
+
+body {
+    background-color: #F4A261;
+    color: #2D2B2B;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+h1 {
+    font-family: 'Mexcellent', sans-serif;
+    font-size: 75px;
+    color: #2D2B2B;
+    margin-bottom: 10px;
+}
+
+.address a {
+    color: #2D2B2B; 
+    text-decoration: none; 
+    font-weight: bold;
+}
+
+.address a:hover {
+    text-decoration: underline; 
+}
+
+.order-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.order-btn img {
+    width: 70px;
+    height: 70px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.order-btn img[alt="DIDI Food"] {
+    width: 50px; /* Tamaño ligeramente más pequeño */
+    height: 50px;
+transition: transform 0.2s ease-in-out;
+}
+
+.order-btn img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+.social-links a img {
+    width: 30px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.social-links a img:hover {
+    transform: scale(1.1);
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+footer img {
+    width: 35px;
+    transition: transform 0.2s ease-in-out;
+}
+
+footer img:hover {
+    transform: scale(1.1);
+}
